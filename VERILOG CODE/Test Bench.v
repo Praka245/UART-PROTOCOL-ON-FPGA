@@ -16,7 +16,7 @@ module TB();
     reg ready_clr = 0;       // Signal to clear the 'ready' flag in the receiver
 
     // Instantiation of the UART module
-    FPGA DUT (
+    Top DUT (
         .data_in(data),
         .Tx_en(enable),
         .clk_50m(clk),
