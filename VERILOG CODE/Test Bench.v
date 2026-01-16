@@ -1,3 +1,5 @@
+// NOTE : This Test Bench is for only TX, RX, Baud Rate, Top modules. Not for FPGA module
+
 module TB();
 
     // Testbench control signals
