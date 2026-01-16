@@ -13,7 +13,7 @@ reg  rdy_clr = 0;
 wire [7:0] rxdata;
 
 // Instantiate your UART
-uart my_uart(
+Top DUT (
     .data_in(sw),         // switches as input data
     .En_btn(btn),      // send on button press
     .clk_100m(clk_100m),
@@ -37,3 +37,4 @@ always @(posedge clk_100m) begin
 end
 
 endmodule
+
