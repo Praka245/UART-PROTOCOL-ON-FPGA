@@ -1,6 +1,6 @@
 `timescale 1ns / 1ns
 
-module uart(
+module Top(
 		input wire [7:0] data_in,
 	    input wire En_btn,
 	    input wire clk_100m,
@@ -20,5 +20,6 @@ baud_rate_gen uart_baud(.clk_100m(clk_100m), .rxclk_en(rxclk_en), .txclk_en(txcl
 transmitter uart_tx(.data_in(data_in), .En_btn(En_btn), .clk_100m(clk_100m), .clken(txclk_en), .tx(tx), .tx_busy(tx_busy));
 
 receiver uart_rx(.rx(rx), .ready(ready), .ready_clr(ready_clr), .clk_100m(clk_100m), .clken(rxclk_en), .data(data_out));
+
 
 endmodule
