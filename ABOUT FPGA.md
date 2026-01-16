@@ -1,7 +1,7 @@
 ```
 ZedBoard (Zynq-7000 Development Board)
 ```
-## ⚙️ABOUT BOARD :
+## ⚙️ABOUT FPGA BOARD :
 - ZedBoard is a low-cost development board based on the AMD Zynq™ - 7000
 All Programmable SoC (AP SoC). The board provides all the essential
 hardware required to develop systems running Linux®, Android®,
