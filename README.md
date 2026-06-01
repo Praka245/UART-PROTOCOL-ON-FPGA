@@ -21,7 +21,7 @@ UART (Universal Asynchronous Receiver Transmitter) is a **serial communication p
 - Simple hardware interface
 - Widely used in embedded systems, FPGAs, and microcontrollers
 
-  <img width="700" height="583" alt="image" src="https://github.com/user-attachments/assets/fa54c35e-9dfd-402b-a975-e31676857483" />
+  <img width="850" height="500" alt="image" src="https://github.com/user-attachments/assets/fa54c35e-9dfd-402b-a975-e31676857483" />
 
 
 
@@ -39,7 +39,7 @@ Each UART data frame consists of:
 | Stop Bit | Indicates end of transmission (logic 1) |
 
 ---
-<img width="700" height="766" alt="image" src="https://github.com/user-attachments/assets/400703f0-0e0f-4837-9421-d1dbec74cba4" />
+<img width="850" height="500" alt="image" src="https://github.com/user-attachments/assets/400703f0-0e0f-4837-9421-d1dbec74cba4" />
 
 
 **Frame Example (8N1):**
