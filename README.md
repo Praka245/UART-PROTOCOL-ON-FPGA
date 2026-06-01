@@ -39,7 +39,7 @@ Each UART data frame consists of:
 | Stop Bit | Indicates end of transmission (logic 1) |
 
 ---
-<img width="500" height="766" alt="image" src="https://github.com/user-attachments/assets/400703f0-0e0f-4837-9421-d1dbec74cba4" />
+<img width="700" height="766" alt="image" src="https://github.com/user-attachments/assets/400703f0-0e0f-4837-9421-d1dbec74cba4" />
 
 
 **Frame Example (8N1):**
@@ -282,6 +282,18 @@ end
 
 ---
 
+## 🛠 Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Xilinx Vivado  | Synthesis & Implementation |
+| iVerilog | Simulation & Verification |
+| GTKWave | Waveform Analysis |
+
+---
+
+---
+
 ## 🚀 APPLICATIONS
 
 - FPGA ↔ PC, PC ↔ MCus serial communication
@@ -296,5 +308,5 @@ end
 
 **Prakadeesh N**  
 Electronics and Communication Engineering (ECE)  
-Interested in Digital Design, VLSI, and FPGA Development
+Interested in Digital Design, VLSI
 
