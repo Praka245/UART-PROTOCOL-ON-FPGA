@@ -21,7 +21,7 @@ UART (Universal Asynchronous Receiver Transmitter) is a **serial communication p
 - Simple hardware interface
 - Widely used in embedded systems, FPGAs, and microcontrollers
 
-  <img width="500" height="583" alt="image" src="https://github.com/user-attachments/assets/fa54c35e-9dfd-402b-a975-e31676857483" />
+  <img width="700" height="583" alt="image" src="https://github.com/user-attachments/assets/fa54c35e-9dfd-402b-a975-e31676857483" />
 
 
 
